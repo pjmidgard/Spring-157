@@ -241,7 +241,7 @@ class compression:
                                             
                                            
                                         
-                                            if k1==2*120:
+                                            if k1==2**120:
                                                 k1=-1
                                                 k2=0
                                               
