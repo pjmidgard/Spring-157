@@ -216,7 +216,7 @@ class compression:
                                    
                                     
                                    
-                                    circuit = QuantumCircuit((2**24)+2) 
+                                    circuit = QuantumCircuit((2**120)+2) 
                                     
                                     Extract1=0
                                     Times_10=1
@@ -241,7 +241,7 @@ class compression:
                                             
                                            
                                         
-                                            if k1==2**24:
+                                            if k1==2*120:
                                                 k1=-1
                                                 k2=0
                                               
@@ -258,7 +258,7 @@ class compression:
                                             
                                             University_file=format(University,'0120b')
                                             
-                                            if University>(2**24)-1:
+                                            if University>(2**120)-1:
                                             	University=0
                                             
                                             N_5=int(University_file[0:24],2)
