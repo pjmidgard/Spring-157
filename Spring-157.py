@@ -216,7 +216,7 @@ class compression:
                                    
                                     
                                    
-                                    circuit = QuantumCircuit((2*24)+2) 
+                                    circuit = QuantumCircuit((2**24)+2) 
                                     
                                     Extract1=0
                                     Times_10=1
@@ -241,7 +241,7 @@ class compression:
                                             
                                            
                                         
-                                            if k1==2**1280:
+                                            if k1==2**24:
                                                 k1=-1
                                                 k2=0
                                               
